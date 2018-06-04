@@ -21,6 +21,14 @@ h2 {
   padding-left: 10px;
 }
 
+h4 {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  margin-top: 0;
+}
+
 i {
   display: inline-block;
   width: 200px;
@@ -88,12 +96,14 @@ p {
 	background-color: #4bbcf4;
 	color: white;
 	padding: 20px;
+  text-align: center;
 }
 
 .bg-namegreen {
 	background-color: #61c0bf;
 	padding: 20px;
 	color: white;
+  text-align: center;
 	
 }
 
@@ -101,6 +111,7 @@ p {
 	background-color: #bbded6;
 	padding: 20px;
 	color: white;
+  text-align: center;
 }
 
 .email {

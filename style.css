@@ -108,6 +108,10 @@ nav ul a:hover {
   border-bottom: 3px solid #bbded6;
 }
 
+.active:active {
+  color: red;
+}
+
 
 
 
