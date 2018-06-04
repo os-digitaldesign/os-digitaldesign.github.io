@@ -14,6 +14,10 @@ footer {
 	margin-top: 50px;
 }
 
+header {
+  padding: 30px;
+}
+
 .sm-links {
 	margin: auto;
   margin-top: 20px;
@@ -170,9 +174,10 @@ input[type=submit]:hover {
 
 /* ABOUT PAGE */
 .my-image {
-  width: 30%;
+    width: 30%;
 	display: block;
 	float: left;
+  border-radius: 30%;
 } 
 
 .aboutme {
@@ -183,7 +188,9 @@ input[type=submit]:hover {
 .about-heading {
 	background-color: #fae3d9;
 	text-align: center;
+  padding: 20px;
 }
+
 .mywrapper {
 	width: 100%;
 }
@@ -192,6 +199,8 @@ input[type=submit]:hover {
 	width: 60%;
 	float: right;
 	padding-left: 20px;
+  border: 5px solid #fae3d9;
+  border-radius: 40px;
 	
 }
 
