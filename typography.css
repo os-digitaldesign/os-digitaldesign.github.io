@@ -1,0 +1,109 @@
+body {
+  font-family: didot;
+}
+
+ h1, h2, h3, h4, h5, a {
+	font-family: didot;
+}
+
+
+a {
+	font-size: 30px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.heading-main {
+	font-size: 100px;
+	text-align: center;
+	color:  #61c0bf;
+	margin-top: 20px;
+	padding-top: 70px;
+	
+	animation: hello;
+	animation-duration: 1s;
+	animation-delay: 0.5s;
+	animation-iteration-count: 1;
+}
+
+@keyframes hello {
+	from {
+		font-size: 0;
+		transform: rotate(300deg);
+	}
+	
+	to {
+		font-size: 100px;
+		transform: rotate(0);
+	}
+}
+
+.heading-main1 {
+	font-size: 100px;
+	text-align: center;
+	color: #61c0bf;
+	margin-top: 20px;
+	padding-top: 70px;
+}
+
+.paragraph-main {
+	text-align: center;
+	font-size: 26px;
+	width: 60%;
+	margin: auto;
+	color: black;
+}
+
+.contact-section h1, h2 {
+	text-align: center;
+}
+
+/* MAKING SHEFFIELD FAIRER */
+
+.bg-nameblue {
+	background-color: #4bbcf4;
+	height: 50px;
+	color: white;
+	line-height: 50px;
+}
+
+.bg-namegreen {
+	background-color: #61c0bf;
+	height: 50px;
+	color: white;
+	line-height: 50px;
+}
+
+.bg-namelight {
+	background-color: #bbded6;
+	height: 50px;
+	color: white;
+	line-height: 50px;
+}
+
+.email {
+	font-family: didot;
+	color: black;
+	font-size: 18px;
+}
+
+.Follow-me {
+	font-size: 24px;
+	color: #808080;
+}
+
+.skills-list {
+	font-size: 26px;
+	font-family: didot;
+	color: black;
+}
+
+.heading-main2 {
+	font-size: 100px;
+	text-align: center;
+	color: #61c0bf;
+	margin-top: 20px;
+	padding-top: 70px;
+}
