@@ -41,11 +41,14 @@ section {
 	}
 	
 .home-who {
-		width: 375px;
+  width: 375px;
+   height: auto;
 	}
 	
 .home-role {
-		width: 375px;
+  width: 375px;
+  height: auto;
+  
 	}
 	
 .paragraph-main{
@@ -153,5 +156,12 @@ nav ul a {
 		height: auto;
 	}
 
-	
+
+  .main-list {
+  }
+  
+  .skills-list {
+    text-align: center;
+  }
+  
 }
