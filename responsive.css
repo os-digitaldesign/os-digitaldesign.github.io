@@ -1,0 +1,157 @@
+@media screen and (max-width: 375px) {
+	
+	wrapper {
+		width: 375px;
+	}
+	.grid-container {
+  display: grid;
+	grid-gap: 0px;
+  grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+  padding: 0;
+	margin-top: 20px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #700353;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+	
+footer {
+	margin-top: 30px;
+	}
+	
+
+.sm-links {
+ margin-top: 20px;
+}
+
+section {
+	display: flex;
+	width: 100%;
+	margin: auto;
+	margin-top: 0;
+}
+	
+	/* HOME PAGE */
+	
+.home-page {
+		width: 375px;
+	}
+	
+.home-who {
+		width: 375px;
+	}
+	
+.home-role {
+		width: 375px;
+	}
+	
+.paragraph-main{
+	
+	}
+	
+	.logo {
+		
+	}	
+	
+.my-image {
+	width: 90%;
+	float: none;
+	margin: auto;
+	margin-top: 20px;
+	
+	}
+.my-description {
+	width: 100%;
+	height: auto;
+	float: none;
+	}
+	
+	.aboutme {
+		width: 376px;
+	}
+	
+	.myskills-heading {
+		display: flex;
+		flex-direction: column;
+	}
+  
+ 
+.contact-form {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  }
+  
+  .contact {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+  } 
+  
+  
+  /* NAVIGATION */
+nav {
+	width: 375px;
+}
+
+nav ul {
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 10px;
+
+  border-bottom: 2px solid #bbded6;
+  width: 100%;
+  align-items: center;
+	text-align: center;
+}
+
+nav ul a {
+}
+  
+.grid-item {
+  border: 1px solid #bbded6;
+  }
+
+  .heading-main {
+    color: black;
+  }
+	
+	
+	/*MAKING SHEFFIELD FAIRER PAGE*/
+	video {
+		width: 375px;
+	}
+	
+	.slideshow-container {
+		width: 375px;
+	}
+	
+	
+	
+	/* PHOTOGRAPHY PAGE */
+
+	.photography-container {
+	width: 375px;
+}
+
+.photography-images {
+	width: 375px;
+	height: auto;
+	
+	margin-bottom: 20px;
+	margin-left: 0;
+}
+	
+	.photo-project {
+		width: 375px;
+		height: auto;
+	}
+
+	
+}
