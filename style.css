@@ -1,0 +1,341 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+	margin: auto;
+	max-width: 1040px;
+}
+
+
+/* SOCIAL MEDIA LINKS // FOOTER */
+footer {
+	height: 150px;
+	margin-top: 50px;
+}
+
+.sm-links {
+	margin: auto;
+  margin-top: 20px;
+}
+
+section {
+	display: flex;
+	width: 50%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.Follow-me {
+	text-align: center;
+}
+
+/* LOGO */
+.logo {
+  display: block;
+	width: 70px;
+  float: left;
+	margin-left: 20px;
+} 
+
+
+
+#home-page {
+	background-color: #fae3d9;
+	background-image: url(BG-pattern/bg-pattern.svg);
+	/*
+	
+	
+	animation-name: backgroundcolor;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;*/
+}
+
+/*
+@keyframes backgroundcolor {
+	0% {
+		background-color: #fae3d9;
+	}
+	
+	25% {
+		background-color: #bbded6;
+	}
+	100% {
+		background-color: #61c0bf;
+	}
+} */ 
+
+
+/* NAVIGATION */
+nav {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-around;
+  
+  list-style: none;
+}
+
+nav ul li {
+  padding: 0;
+  margin: 0;  
+}
+
+nav ul a {
+  display: inline-block;
+  color: #ffb6b9;
+  text-decoration: none;
+	font-size: 24px;
+  
+  border-bottom: 3px solid transparent;
+}
+
+nav ul a:hover {
+  border-bottom: 3px solid #bbded6;
+}
+
+
+
+
+
+/* CONTACT FORM */
+.contact-form {
+	border-radius: 10px;
+	background-color: #fae3d9;
+	padding: 20px;
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #bbded6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #61c0bf;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* ILLUSTRATION POSTCARD */
+
+
+.img-postcard {
+	display: block;
+	margin: auto;
+	width: 800px;
+	height: 500px;
+}
+
+/* CONTACT PAGE */
+.contact {
+	width: 40%;
+	float: right;
+	margin-right: 20px;
+	margin-top: -555px;
+}
+
+
+
+/* ABOUT PAGE */
+.my-image {
+  width: 30%;
+	display: block;
+	float: left;
+} 
+
+.aboutme {
+	margin-top: 20px;
+
+}
+
+.about-heading {
+	background-color: #fae3d9;
+	text-align: center;
+}
+.mywrapper {
+	width: 100%;
+}
+
+.my-description {
+	width: 60%;
+	float: right;
+	padding-left: 20px;
+	
+}
+
+.software-links {
+  display: flex;
+  margin-top: 0;
+}
+
+.software {
+  margin: auto;
+  width: 10%;
+}
+
+.myskills-heading {
+  padding: 0;
+  display: flex;
+}
+
+.myskills {
+  list-style: none;
+  padding: 20px;
+  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
+/* HOME PAGE */
+.home-page {
+	/*background-color: #bbded6;*/
+	height: 400px;
+}
+
+.home-role {
+	height: 600px;
+	/*background-color: #ffb6b9;*/
+}
+
+.main-list li {
+	list-style: none;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.home-who {
+	height: 400px;
+	/*background-color: #fae3d9;*/
+}
+
+
+
+
+/* GRID CONTAINER */
+.grid-container {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: auto auto auto;
+  padding: 0;
+  margin-top: 20px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #bbded6;
+  padding: 10px;
+}
+
+
+/* PHOTOGRAPHY PAGE */
+
+.photography-container {
+  margin: auto;
+	width: 1040px;
+}
+
+.photography-images {
+	width: 1040px;
+	height: 600px;
+	
+	background-color: pink;
+}
+
+.photography-images {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.nex-project {
+	text-align: right;
+	width: 50%;
+	float: right;
+	padding-right: 10px;
+	margin-bottom: 20px;
+}
+
+.previous-project {
+	text-align: left;
+	width: 50%;
+	float: left;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+.project-nav {
+	text-decoration: none;
+	color: #808080;
+	font-size: 16px;
+}
+
+
+
+
+
+/* THE TRUMPET */
+.trumpet-container {
+}
+
+.trumpet-project {
+	
+  width: 550px;
+	height: 750px;
+	background-color: red;
+	margin-bottom: 20px;
+}
+
+.trumpet-images {
+	 width: 550px;
+	margin: auto;
+}
+
+
+
+/*MAKING SHEFFIELD FAIRER*/
+
+video {
+	display: block;
+	margin: auto;
+	
+	margin-bottom: 30px;
+}
+
+
