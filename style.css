@@ -19,19 +19,24 @@ header {
 }
 
 .sm-links {
+  display: block;
+  width: 20%;
 	margin: auto;
-  margin-top: 20px;
+  justify-content: center;
 }
 
 section {
 	display: flex;
-	width: 50%;
+	width: 60%;
 	margin: auto;
 	margin-top: 30px;
 }
 
 .Follow-me {
 	text-align: center;
+}
+
+.links {
 }
 
 /* LOGO */
