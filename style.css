@@ -292,8 +292,6 @@ input[type=submit]:hover {
 .photography-images {
 	width: 1040px;
 	height: 600px;
-	
-	background-color: pink;
 }
 
 .photography-images {
@@ -354,6 +352,20 @@ video {
 	margin: auto;
 	
 	margin-bottom: 30px;
+}
+
+.atm-container {
+   width: 375px;
+  margin: auto;
+  
+}
+
+.atm-app {
+  width: 375px;
+  height: 600px;
+  margin-bottom: 30px;
+  
+  background-color: yellow;
 }
 
 

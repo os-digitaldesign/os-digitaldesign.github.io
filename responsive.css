@@ -164,4 +164,28 @@ nav ul a {
     text-align: center;
   }
   
+  
+  /*THE TRUMPET PAGE*/
+  .trumpet-project {
+	
+    width: 375px;
+
+	background-color: red;
+	margin-bottom: 40px;
+}
+
+.trumpet-images {
+   margin: auto;
+   width: 375px;
+}
+  
+  video {
+	display: block;
+	margin: auto;
+    width: 375px;
+	
+	margin-bottom: 30px;
+}
+
+  
 }
