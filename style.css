@@ -354,6 +354,8 @@ video {
 	margin-bottom: 30px;
 }
 
+
+/*ATM*/
 .atm-container {
    width: 375px;
   margin: auto;
@@ -364,8 +366,7 @@ video {
   width: 375px;
   height: 600px;
   margin-bottom: 30px;
-  
-  background-color: yellow;
+
 }
 
 
