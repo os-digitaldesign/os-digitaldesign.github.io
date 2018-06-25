@@ -3,13 +3,17 @@
 wrapper {
 		width: 414px;
 	}
+  
 .grid-container {
   display: grid;
   grid-gap: 0px;
   grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
   padding: 0;
   margin-top: 20px;
+  width: 414px;
+  margin: auto;
 }
+  
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid #700353;
@@ -37,7 +41,7 @@ section {
 	/* HOME PAGE */
 	
 .home-page {
-		width: 414px;
+  width: 414px;
 	}
 	
 .home-who {
@@ -49,42 +53,17 @@ section {
   width: 375px;
   height: auto;
   
-	}
-	
-.paragraph-main{
-	
-	}
-	
-	.logo {
-		
-	}	
-	
-  
-.about-me-container{
+}
+
+.
+.aboutme {
   width: 414px;
-}  
-.my-image {
-	width: 90%;
-	float: none;
-	margin: auto;
-	margin-top: 20px;
+}
 	
-	}
-  
-.my-description {
-	width: auto;
-	height: auto;
-	float: none;
-	}
-	
-	.aboutme {
-		width: 414px;
-	}
-	
-	.myskills-heading {
+.myskills-heading {
 		display: flex;
 		flex-direction: column;
-	}
+}
   
  
 .contact-form {
@@ -93,7 +72,7 @@ section {
   margin-top: 20px;
   }
   
-  .contact {
+.contact {
     width: 100%;
     margin: auto;
     margin-bottom: 20px;
@@ -102,7 +81,8 @@ section {
   
   /* NAVIGATION */
 nav {
-	width: 375px;
+	width: 414px;
+  margin: auto;
 }
 
 nav ul {
@@ -193,26 +173,89 @@ nav ul a {
 }
   
   
+  
+    
+  /*ABOUT PAGE*/
+  about-me-container{
+  width: 414px;
+  border: none;
+} 
+  
+.my-image {
+	width: 90%;
+	float: none;
+	margin: auto;
+	margin-top: 20px;
+    margin-bottom: 20px;	
+}
+  
+.my-description {
+ height: 400px;
+ margin-top: 20px;
+  
+}
+	
+  
   .about-me-container {
     width: 414px;
-    height: 500px;
-    border: 3px solid red;
+    margin: auto;
   }
   
   .my-image {
-    width: 100%;
-	display: block;
+    width: 300px;
+	
 	float: none;
     margin: auto;
     border-radius: 30%;
 }
   
   .my-description {
+    display: block;
 	width: 100%;
-	float: none;
-    border: 5px solid #fae3d9;
-    border-radius: 40px;	
+	float: none;	
 }
-
   
+  
+  .about-heading {
+    width: 414px;
+  }
+  
+  
+  
+  
+  
+  /*FOOTER*/
+.sm-links {
+  display: block;
+  width: 30%;
+ 
+}
+  
+  
+  
+  
+  /* PROJECTS PAGES */
+  
+  .atm-container {
+     width: 414px;
+  }
+  
+  .illustrations-container {
+    width: 414px;
+  }
+  
+  .postcards {
+    width: 414px;
+  }
+  
+  .img-postcard {
+    width: 414px;
+    height: 400px;
+  }
+  
+  
+  .photo-project {
+    width: 414px;
+    margin: auto;
+  }
 }
