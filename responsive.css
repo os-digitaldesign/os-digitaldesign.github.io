@@ -1,7 +1,7 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
 	
 wrapper {
-		width: 375px;
+		width: 414px;
 	}
 .grid-container {
   display: grid;
@@ -37,11 +37,11 @@ section {
 	/* HOME PAGE */
 	
 .home-page {
-		width: 375px;
+		width: 414px;
 	}
 	
 .home-who {
-  width: 375px;
+  width: 414px;
    height: auto;
 	}
 	
@@ -59,6 +59,10 @@ section {
 		
 	}	
 	
+  
+.about-me-container{
+  width: 414px;
+}  
 .my-image {
 	width: 90%;
 	float: none;
@@ -66,14 +70,15 @@ section {
 	margin-top: 20px;
 	
 	}
+  
 .my-description {
-	width: 100%;
+	width: auto;
 	height: auto;
 	float: none;
 	}
 	
 	.aboutme {
-		width: 376px;
+		width: 414px;
 	}
 	
 	.myskills-heading {
@@ -128,11 +133,11 @@ nav ul a {
 	
 	/*MAKING SHEFFIELD FAIRER PAGE*/
 	video {
-		width: 375px;
+		width: 414px;
 	}
 	
 	.slideshow-container {
-		width: 375px;
+		width: 414px;
 	}
 	
 	
@@ -140,11 +145,11 @@ nav ul a {
 	/* PHOTOGRAPHY PAGE */
 
 	.photography-container {
-	width: 375px;
+	width: 414px;
 }
 
 .photography-images {
-	width: 375px;
+	width: 414px;
 	height: auto;
 	
 	margin-bottom: 20px;
@@ -176,7 +181,7 @@ nav ul a {
 
 .trumpet-images {
    margin: auto;
-   width: 375px;
+   width: 414px;
 }
   
   video {
@@ -185,6 +190,28 @@ nav ul a {
     width: 375px;
 	
 	margin-bottom: 30px;
+}
+  
+  
+  .about-me-container {
+    width: 414px;
+    height: 500px;
+    border: 3px solid red;
+  }
+  
+  .my-image {
+    width: 100%;
+	display: block;
+	float: none;
+    margin: auto;
+    border-radius: 30%;
+}
+  
+  .my-description {
+	width: 100%;
+	float: none;
+    border: 5px solid #fae3d9;
+    border-radius: 40px;	
 }
 
   
