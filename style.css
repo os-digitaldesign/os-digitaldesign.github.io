@@ -41,7 +41,7 @@ header {
 
 .links {
    display: flex;
-  flex-direction: row;
+   flex-direction: row;
 	width: 50%;
    height: 100px;
 	margin: auto;
@@ -113,7 +113,7 @@ nav ul a {
   display: inline-block;
   color: #ffb6b9;
   text-decoration: none;
-	font-size: 24px;
+  font-size: 24px;
   
   border-bottom: 3px solid transparent;
 }
@@ -122,8 +122,8 @@ nav ul a:hover {
   border-bottom: 3px solid #bbded6;
 }
 
-.active:active {
-  color: red;
+.highlight:active {
+   color: #61c0bf;
 }
 
 
@@ -170,6 +170,15 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+.contact-me-box {
+  border: 5px solid #fae3d9;
+  border-radius: 40px;	
+  padding: 20px;
+  margin-bottom: 20px;
+  
+  text-align: center;
+}
+
 /* ILLUSTRATION POSTCARD */
 
 
@@ -209,7 +218,7 @@ input[type=submit]:hover {
 .about-heading {
 	background-color: #fae3d9;
 	text-align: center;
-  padding: 20px;
+    padding: 20px;
 }
 
 .mywrapper {
@@ -220,8 +229,8 @@ input[type=submit]:hover {
 	width: 60%;
 	float: right;
 	padding-left: 20px;
-  border: 5px solid #fae3d9;
-  border-radius: 40px;	
+    border: 5px solid #fae3d9;
+    border-radius: 40px;	
 }
 
 .about-me-description {
@@ -235,7 +244,7 @@ input[type=submit]:hover {
 
 .software {
   margin: auto;
-  width: 7%;
+  width: 5%;
 }
 
 .myskills-heading {
@@ -293,6 +302,7 @@ input[type=submit]:hover {
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid #bbded6;
+  /*box-shadow: 2px 0px 0px 2px #000000; */
   padding: 10px;
 }
 
