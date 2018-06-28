@@ -16,6 +16,7 @@ footer {
 
 header {
   padding: 30px;
+
 }
 
 .sm-links {
@@ -88,8 +89,8 @@ nav {
   width: 50%;
   display: block;
   margin-left: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 nav ul {
