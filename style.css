@@ -309,13 +309,13 @@ input[type=submit]:hover {
 
 .grid-item:hover {
    opacity: 0.5;
+   transition: 0.2s;
 }
 
 .grid-item-image {
   display: block;
   margin: auto;
 }
-
 
 /* PHOTOGRAPHY PAGE */
 
