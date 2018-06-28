@@ -80,9 +80,11 @@ section {
   
   
   /* NAVIGATION */
+  
+  }
 nav {
 	width: 414px;
-  margin: auto;
+    margin: auto;
 }
 
 nav ul {
@@ -93,7 +95,7 @@ nav ul {
 nav ul li {
   padding: 10px;
 
-  border-bottom: 2px solid #bbded6;
+  border-bottom: 2px solid #fae3d9;
   width: 100%;
   align-items: center;
 	text-align: center;
@@ -103,7 +105,7 @@ nav ul a {
 }
   
 .grid-item {
-  border: 1px solid #bbded6;
+  border: 1px solid #ffb6b9;
   }
 
   .heading-main {
