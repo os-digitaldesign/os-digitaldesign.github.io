@@ -122,7 +122,7 @@ nav ul a:hover {
   border-bottom: 3px solid #bbded6;
 }
 
-.highlight:active {
+li a.active {
    color: #61c0bf;
 }
 
@@ -219,6 +219,7 @@ input[type=submit]:hover {
 	background-color: #fae3d9;
 	text-align: center;
     padding: 20px;
+  color: #808080;
 }
 
 .mywrapper {
