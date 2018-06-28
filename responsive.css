@@ -79,9 +79,11 @@ section {
   } 
   
   
+  
+  
   /* NAVIGATION */
   
-  }
+ 
 nav {
 	width: 414px;
     margin: auto;
@@ -98,11 +100,14 @@ nav ul li {
   border-bottom: 2px solid #fae3d9;
   width: 100%;
   align-items: center;
-	text-align: center;
+  text-align: center;
 }
 
 nav ul a {
 }
+
+
+
   
 .grid-item {
   border: 1px solid #ffb6b9;
@@ -112,6 +117,8 @@ nav ul a {
     color: black;
   }
 	
+
+
 	
 	/*MAKING SHEFFIELD FAIRER PAGE*/
 	video {
