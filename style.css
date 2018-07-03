@@ -198,6 +198,14 @@ input[type=submit]:hover {
 }
 
 
+.mail {
+   text-decoration: none;
+  color: black;
+  padding: 10px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
 
 /* ABOUT PAGE */
 .my-image {
@@ -260,9 +268,31 @@ input[type=submit]:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+  
+  margin: 20px;
+  
+  background-color: #61c0bf;
+  border-radius: 50px;
+  color: white;
+   border: 2px solid transparent;
+}
+
+.myskills:hover{
+  background-color: white;
+  border: 2px solid #61c0bf;
+  color: #61c0bf;
 }
 
 
+.myskills-about {
+  list-style: none;
+  padding: 20px;
+  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
 
 
 /* HOME PAGE */
