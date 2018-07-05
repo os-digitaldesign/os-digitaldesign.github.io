@@ -242,8 +242,13 @@ input[type=submit]:hover {
 	width: 60%;
 	float: right;
 	padding-left: 20px;
-    border: 5px solid #fae3d9;
+    border: 5px dotted #fae3d9;
     border-radius: 40px;	
+}
+
+.my-description:hover {
+  border: 5px solid #fae3d9;
+  transition: border 350ms ease-out;
 }
 
 .about-me-description {
