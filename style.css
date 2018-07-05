@@ -186,6 +186,22 @@ input[type=submit]:hover {
     transition: border 350ms ease-out;
 }
 
+
+
+.thanks-form {
+  border-radius: 10px;
+	background-color: #fae3d9;
+	padding: 20px;
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 20px;
+  
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /**************ILLUSTRATION PAGE********************/
 
 
