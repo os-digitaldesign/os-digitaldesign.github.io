@@ -66,7 +66,7 @@ p {
 }
 
 .heading-main1 {
-	font-size: 60px;
+	font-size: 50px;
 	text-align: center;
 	color: #61c0bf;
 	margin-top: 20px;
@@ -75,10 +75,17 @@ p {
 
 .paragraph-main {
 	text-align: center;
-	font-size: 22px;
+	font-size: 20px;
 	width: 60%;
 	margin: auto;
 	color: #323232;
+}
+
+.paragraph-main-intro {
+  text-align: center;
+  font-size: 30px;
+  color: #323232;
+  font-style: italic;
 }
 
 .skills-list {

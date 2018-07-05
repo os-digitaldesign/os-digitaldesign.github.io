@@ -8,7 +8,7 @@ body {
 }
 
 
-/* SOCIAL MEDIA LINKS // FOOTER */
+/**************FOOTER / SOCIAL MEDIA LINKS********************/
 footer {
 	height: 150px;
 	margin-top: 50px;
@@ -48,7 +48,7 @@ header {
 	margin-top: 10px;
 }
 
-/* LOGO */
+/**************LOGO********************/
 .logo {
   display: block;
 	width: 70px;
@@ -84,7 +84,7 @@ header {
 } */ 
 
 
-/* NAVIGATION */
+/**************NAVIGATION********************/
 nav {
   width: 50%;
   display: block;
@@ -130,7 +130,7 @@ li a.active {
 
 
 
-/* CONTACT FORM */
+/**************CONTACT FORM********************/
 .contact-form {
 	border-radius: 10px;
 	background-color: #fae3d9;
@@ -179,7 +179,7 @@ input[type=submit]:hover {
   text-align: center;
 }
 
-/* ILLUSTRATION POSTCARD */
+/**************ILLUSTRATION PAGE********************/
 
 
 .img-postcard {
@@ -189,7 +189,7 @@ input[type=submit]:hover {
 	height: 500px;
 }
 
-/* CONTACT PAGE */
+/**************CONTACT PAGE********************/
 .contact {
 	width: 40%;
 	float: right;
@@ -199,7 +199,7 @@ input[type=submit]:hover {
 
 
 .mail {
-   text-decoration: none;
+  text-decoration: none;
   color: black;
   padding: 10px;
   line-height: 30px;
@@ -207,7 +207,7 @@ input[type=submit]:hover {
 }
 
 
-/* ABOUT PAGE */
+/**************ABOUT PAGE********************/
 .my-image {
     width: 30%;
 	display: block;
@@ -225,9 +225,13 @@ input[type=submit]:hover {
 
 .about-heading {
 	background-color: #fae3d9;
+    background-image: url(BG-pattern/bg-pattern2.svg);
+    background-repeat: no-repeat;
+     background-size: cover;
 	text-align: center;
     padding: 20px;
-  color: #808080;
+    color: #808080;
+    
 }
 
 .mywrapper {
@@ -287,13 +291,49 @@ input[type=submit]:hover {
   background-color: #61c0bf;
   border-radius: 50px;
   color: white;
-   border: 2px solid transparent;
+  font-style: italic;
+  border: 2px solid transparent;
+  transition: background-color 350ms ease-out;
 }
 
 .myskills:hover{
   background-color: white;
   border: 2px solid #61c0bf;
   color: #61c0bf;
+}
+
+/**************HOME PAGE SLOGAN LIST********************/
+.myskills-HP {
+  list-style: none;
+  padding: 20px;
+  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  margin: 20px;
+  
+  background-color: #61c0bf;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  border: 2px solid transparent;
+  
+  transition: background-color 350ms ease-out;
+}
+
+.myskills-HP:hover {
+  background-color: transparent;
+  color: #61c0bf;
+  border: 2px solid #61c0bf;
+}
+
+.myskills-heading-HP {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -308,14 +348,14 @@ input[type=submit]:hover {
 }
 
 
-/* HOME PAGE */
+/**************HOME PAGE********************/
 .home-page {
 	/*background-color: #bbded6;*/
-	height: 400px;
+	height: auto;
 }
 
 .home-role {
-	height: 600px;
+	height: auto;
 	/*background-color: #ffb6b9;*/
 }
 
@@ -328,14 +368,14 @@ input[type=submit]:hover {
 }
 
 .home-who {
-	height: 400px;
+	height: auto;
 	/*background-color: #fae3d9;*/
 }
 
 
 
 
-/* GRID CONTAINER */
+/**************GRID CONTAINER********************/
 .grid-container {
   display: grid;
   grid-gap: 0px;
@@ -383,7 +423,7 @@ input[type=submit]:hover {
   margin: auto;
 }
 
-/* PHOTOGRAPHY PAGE */
+/**************PHOTOGRAPHY PAGE********************/
 
 .photography-container {
   margin: auto;
@@ -401,6 +441,9 @@ input[type=submit]:hover {
 	margin-bottom: 40px;
 }
 
+
+
+/**************NEXT & PREVIUS BUTTONS********************/
 .nex-project {
 	text-align: right;
 	width: 50%;
@@ -427,7 +470,7 @@ input[type=submit]:hover {
 
 
 
-/* THE TRUMPET */
+/**************THE TRUMPET********************/
 .trumpet-container {
 }
 
@@ -446,7 +489,7 @@ input[type=submit]:hover {
 
 
 
-/*MAKING SHEFFIELD FAIRER*/
+/**************MAKING SHEFFIELD FAIRER********************/
 
 video {
 	display: block;
@@ -456,7 +499,7 @@ video {
 }
 
 
-/*ATM*/
+/**************ATM MOBILE APP********************/
 .atm-container {
    width: 375px;
   margin: auto;
