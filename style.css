@@ -189,7 +189,7 @@ input[type=submit]:hover {
 
 
 .thanks-form {
-  border-radius: 10px;
+    border-radius: 10px;
 	background-color: #fae3d9;
 	padding: 20px;
 	width: 50%;
