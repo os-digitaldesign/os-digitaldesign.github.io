@@ -254,7 +254,20 @@ input[type=submit]:hover {
 .software {
   margin: auto;
   width: 5%;
+  
+
 }
+
+/*.software-descriprion {
+  position: absolute;
+  display: block;
+  margin: auto;
+  opacity: 100;
+}
+
+.software-descriprion:hover {
+  opacity: 1;
+} */
 
 .myskills-heading {
   padding: 0;
