@@ -348,12 +348,34 @@ input[type=submit]:hover {
   border: 1px solid #bbded6;
   /*box-shadow: 2px 0px 0px 2px #000000; */
   padding: 10px;
+  
+  position: relative;
+}
+
+.grid-item-description{
+  opacity: 0;
+  transition: opacity 350ms ease-out;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #61c0bf;
+  color: white;
+  font-size: 28px;
+  
+  width: 300px;
+  height: 300px;
+  margin: auto
 }
 
 
-.grid-item:hover {
-   opacity: 0.5;
-   transition: 0.2s;
+.grid-item:hover .grid-item-description{
+   opacity: 1;
 }
 
 .grid-item-image {
