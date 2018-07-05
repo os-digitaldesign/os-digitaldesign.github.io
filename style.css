@@ -189,8 +189,9 @@ input[type=submit]:hover {
 
 
 .thanks-form {
-    border-radius: 10px;
-	background-color: #fae3d9;
+    border-radius: 40px;
+    border: 5px solid #fae3d9;
+	/*background-color: #fae3d9; */
 	padding: 20px;
 	width: 50%;
 	margin-top: 50px;
@@ -200,7 +201,28 @@ input[type=submit]:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+  
+    font-size: 22px;
+  
+  animation: border-effect 3s infinite;
 }
+
+@keyframes border-effect {
+  from {
+     border: 5px solid #fae3d9;
+  }
+  
+  to {
+    border: 40px solid #fae3d9;
+  }
+}
+  
+
+
+/*.thanks-form:hover {
+   background-color: white;
+   border: 5px dotted #fae3d9;
+} */
 
 /**************ILLUSTRATION PAGE********************/
 
