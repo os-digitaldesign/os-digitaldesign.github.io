@@ -152,7 +152,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #bbded6;
+    background-color: #61c0bf;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -161,7 +161,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #61c0bf;
+    background-color: #bbded6;
 }
 
 .container {
@@ -177,6 +177,13 @@ input[type=submit]:hover {
   margin-bottom: 20px;
   
   text-align: center;
+  
+  border: 5px solid #fae3d9;
+  transition: border 350ms ease-out;
+}
+.contact-me-box:hover {
+    border: 5px dotted #fae3d9;
+    transition: border 350ms ease-out;
 }
 
 /**************ILLUSTRATION PAGE********************/
